@@ -10,7 +10,7 @@ export default {
     },
     extend: {},
     fontFamily: {
-      default: ['"Fira Code"'],
+      default: ["'Fira Code', monospace"],
     },
   },
   plugins: [],
