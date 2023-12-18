@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { Title } from "../Title";
 
 export const HomeAbout = () => {
@@ -27,6 +28,14 @@ export const HomeAbout = () => {
             desenvolver minhas habilidades. Busco uma chance e pretendo usufruir
             ao máximo da oportunidade.
           </p>
+          <div className="mt-9">
+            <NavLink
+              to="/about"
+              className="border border-primary text-white py-2 px-4 "
+            >
+              Read more -&gt;
+            </NavLink>
+          </div>
         </div>
         <div className="ml-80">
           <img src="../../public/HomeAbout.svg" alt="" />
