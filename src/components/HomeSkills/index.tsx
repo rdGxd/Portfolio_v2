@@ -11,11 +11,11 @@ export const HomeSkills = () => {
           <img src="../../public/SkillsDots.svg" alt="" />
         </div>
 
-        <div className="grid grid-cols-3 ml-60 gap-3 w-[584px]">
+        <div className="grid grid-cols-3 ml-60 gap-3 w-[584px] mt-11">
           <div className="border border-gray">
             <h3 className="text-white p-2">Languages</h3>
             <div className="border-t border-gray p-2 text-gray">
-              <p >JavaScript</p>
+              <p>JavaScript</p>
               <p>TypeScript</p>
               <p>Python</p>
             </div>
@@ -28,7 +28,6 @@ export const HomeSkills = () => {
               <p>PostgreSQL</p>
               <p>MySQL</p>
             </div>
-            b
           </div>
 
           <div className="border border-gray  ">

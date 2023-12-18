@@ -5,7 +5,7 @@ export const HomeProjects = () => {
   return (
     <>
       <div className="flex items-center ml-52 mt-[74px]">
-      <Title title="projects"/>
+        <Title title="projects" />
         <NavLink
           to={"/projects"}
           className="text-white text-base font-medium ml-52"
@@ -69,7 +69,7 @@ export const HomeProjects = () => {
               Projeto de Blog pessoal para consumir uma API com NextJS
             </p>
             <a
-              href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/"
+              href="https://blog-front-end-with-nextjs-and-react.vercel.app/"
               target="_blank"
               className="text-white font-medium text-base border border-primary py-2 px-4 center  hover:bg-primary duration-500 transition-all hover:brightness-50 mr-4"
             >
@@ -104,7 +104,7 @@ export const HomeProjects = () => {
               Landing Page criada para consumir uma API no Strapi
             </p>
             <a
-              href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/"
+              href="https://landing-pages-front-end.vercel.app/"
               target="_blank"
               className="text-white font-medium text-base border border-primary py-2 px-4 center  hover:bg-primary duration-500 transition-all hover:brightness-50 mr-4"
             >
