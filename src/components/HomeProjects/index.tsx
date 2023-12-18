@@ -17,7 +17,8 @@ export const HomeProjects = () => {
           view all ~~&gt;{" "}
         </NavLink>
       </div>
-      <div className="grid grid-cols-4  ml-52 mt-12">
+
+      <div className="grid grid-cols-4 ml-44 mt-12">
         <div className="w-80 h-52 border border-gray">
           <NavLink to="#">
             <img
