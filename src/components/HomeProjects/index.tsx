@@ -1,15 +1,11 @@
 import { NavLink } from "react-router-dom";
+import { Title } from "../Title";
 
 export const HomeProjects = () => {
   return (
     <>
       <div className="flex items-center ml-52 mt-[74px]">
-        <h2 className="text-white text-3xl">
-          <span className="text-primary">#</span>projects{" "}
-        </h2>
-        <span className="text-primary text-3xl ml-4">
-          ----------------------------------
-        </span>
+      <Title title="projects"/>
         <NavLink
           to={"/projects"}
           className="text-white text-base font-medium ml-52"
@@ -18,7 +14,7 @@ export const HomeProjects = () => {
         </NavLink>
       </div>
 
-      <div className="grid grid-cols-4 ml-44 mt-12">
+      <div className="grid grid-cols-4 ml-44 mt-12 justify-items-center">
         <div className="w-80 h-52 border border-gray">
           <NavLink to="#">
             <img
