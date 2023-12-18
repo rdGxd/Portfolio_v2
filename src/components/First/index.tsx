@@ -30,10 +30,12 @@ export const First = () => {
 
       <div className="flex justify-center ">
         <div>
-          <div className="flex justify-center p-5 text-white mt-28 border border-gray w-[712px] ">
-            <q> With great power comes great electricity bill </q>
-          </div>
-          <p className="text-white border-l border-r border-b border-gray flex w-40 p-2 ml-[552px]">
+          <blockquote className="flex justify-center p-8 text-white mt-28 border border-gray w-[712px] ">
+            <q className="font-medium text-xl">
+              With great power comes great electricity bill
+            </q>
+          </blockquote>
+          <p className="text-white font-normal text-2xl border-l border-r border-b border-gray flex w-40 p-2 ml-[552px]">
             - Dr. Who
           </p>
         </div>
