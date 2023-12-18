@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App.tsx";
 import "./assets/styles/index.css";
+import { Footer } from "./components/Footer/index.tsx";
 import { Header } from "./components/Header/index.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -12,6 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Routes>
         <Route index path="/" element={<App />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
