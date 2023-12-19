@@ -7,7 +7,7 @@ export const Contacts = () => {
       <TitlePage title="contacts" />
 
       <div className="ml-[205px]">
-        <p className="flex mt-4 text-white">Quem sou eu? </p>
+        <p className="mt-4 text-white">Quem sou eu? </p>
 
         <div className="flex items-center">
           <p className="text-gray">

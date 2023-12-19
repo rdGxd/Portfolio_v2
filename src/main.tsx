@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer/index.tsx";
 import { Header } from "./components/Header/index.tsx";
 import { Contacts } from "./templates/Contacts/index.tsx";
 import { AboutMe } from "./templates/About/index.tsx";
+import { Projects } from "./templates/Projects/index.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         <Route index path="/" element={<App />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/works" element={<Projects />} />
       </Routes>
       <Footer />
     </BrowserRouter>
