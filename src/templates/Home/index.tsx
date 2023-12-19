@@ -1,3 +1,4 @@
+import { GoTop } from "../../components/GoTop";
 import { First } from "./First";
 import { HomeAbout } from "./HomeAbout";
 import { HomeContacts } from "./HomeContacts";
@@ -12,6 +13,7 @@ export const Home = () => {
       <HomeSkills />
       <HomeAbout />
       <HomeContacts />
+      <GoTop />
     </>
   );
 };
