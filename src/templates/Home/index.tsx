@@ -1,8 +1,8 @@
-import { First } from "../../components/First";
-import { HomeAbout } from "../../components/HomeAbout";
-import { HomeContacts } from "../../components/HomeContacts";
-import { HomeProjects } from "../../components/HomeProjects";
-import { HomeSkills } from "../../components/HomeSkills";
+import { First } from "./First";
+import { HomeAbout } from "./HomeAbout";
+import { HomeContacts } from "./HomeContacts";
+import { HomeProjects } from "./HomeProjects";
+import { HomeSkills } from "./HomeSkills";
 
 export const Home = () => {
   return (

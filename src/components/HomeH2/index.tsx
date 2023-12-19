@@ -1,8 +1,8 @@
-type TitleProps = {
+type HomeH2Props = {
   title: string;
 };
 
-export const Title = ({ title }: TitleProps) => {
+export const HomeH2 = ({ title }: HomeH2Props) => {
   return (
     <>
       <h2 className="text-white text-3xl">

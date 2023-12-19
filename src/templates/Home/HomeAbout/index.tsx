@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import { Title } from "../Title";
+import { HomeH2 } from "../../../components/HomeH2";
 
 export const HomeAbout = () => {
   return (
     <>
       <div className="flex ml-52 mt-28">
-        <Title title="about-me" />
+        <HomeH2 title="about-me" />
       </div>
       <div className="flex flex-wrap">
         <div className="w-[515px] mt-6 ml-60">

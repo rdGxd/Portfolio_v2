@@ -1,10 +1,10 @@
-import { Title } from "../Title";
+import { HomeH2 } from "../../../components/HomeH2";
 
 export const HomeContacts = () => {
   return (
     <>
       <div className="flex ml-52 mt-28 mb-11">
-        <Title title="contacts" />
+        <HomeH2 title="contacts" />
       </div>
       <div className="flex">
         <p className="text-gray w-[505px] ml-60">
