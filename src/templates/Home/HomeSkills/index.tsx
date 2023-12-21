@@ -7,11 +7,11 @@ export const HomeSkills = () => {
         <HomeH2 title="skills" />
       </div>
       <div className="flex">
-        <div className="ml-[250px] flex">
+        <div className="lg:ml-20 flex 2xl:ml-96 ">
           <img src="/assets/images/SkillsDots.svg" alt="" />
         </div>
 
-        <div className="grid grid-cols-3 ml-60 gap-3 w-[584px] mt-11">
+        <div className="grid grid-cols-3 lg:ml-52 gap-3 w-[584px] lg:mt-11">
           <div className="border border-gray">
             <h3 className="text-white p-2">Languages</h3>
             <div className="border-t border-gray p-2 text-gray">

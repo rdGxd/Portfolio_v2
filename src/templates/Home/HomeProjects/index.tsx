@@ -4,17 +4,17 @@ import { HomeH2 } from "../../../components/HomeH2";
 export const HomeProjects = () => {
   return (
     <>
-      <div className="flex items-center ml-52 mt-[74px] md:flex-wrap md:ml-10">
+      <div className="flex items-center lg:ml-52 mt-[74px] md:flex-wrap md:ml-10">
         <HomeH2 title="projects" />
         <NavLink
           to={"/projects"}
-          className="text-white text-base font-medium ml-52 md:ml-4"
+          className="text-white text-base font-medium lg:ml-52 md:ml-4 2xl:ml-[650px]"
         >
           view all ~~&gt;{" "}
         </NavLink>
       </div>
 
-      <div className="grid grid-cols-4 ml-44 mt-12 justify-items-center ">
+      <div className="grid lg:grid-cols-3 2xl:grid-cols-4 lg:ml-44 mt-12 2xl:ml-96 justify-items-center">
         <div className="w-80 h-52 border border-gray">
           <NavLink to="#">
             <img
@@ -27,7 +27,7 @@ export const HomeProjects = () => {
             NextJS, TypeScript, Styled-Components, GraphQL
           </p>
           <div className="text-gray border border-gray p-4">
-            <h3 className="text-white font-medium text-2xl mb-4">
+            <h3 className="text-white font-medium text-22xl mb-4">
               Página de login
             </h3>
             <p className="mb-6">
@@ -62,7 +62,7 @@ export const HomeProjects = () => {
             NextJS, TypeScript, Styled-Components, GraphQL, Disqus
           </p>
           <div className="text-gray border border-gray p-4">
-            <h3 className="text-white font-medium text-2xl mb-4">
+            <h3 className="text-white font-medium text-22xl mb-4">
               Blog Pessoal
             </h3>
             <p className="mb-6">
@@ -97,7 +97,7 @@ export const HomeProjects = () => {
             React, Styled-icons, Styled-Components
           </p>
           <div className="text-gray border border-gray p-4">
-            <h3 className="text-white font-medium text-2xl mb-4">
+            <h3 className="text-white font-medium text-22xl mb-4">
               Landing Page
             </h3>
             <p className="mb-6">

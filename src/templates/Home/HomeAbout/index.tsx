@@ -7,7 +7,7 @@ export const HomeAbout = () => {
       <div className="flex ml-52 mt-28">
         <HomeH2 title="about-me" />
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex md:flex-wrap 2xl:ml-62">
         <div className="w-[515px] mt-6 ml-60">
           <p className="text-gray">
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
@@ -37,7 +37,7 @@ export const HomeAbout = () => {
             </NavLink>
           </div>
         </div>
-        <div className="ml-80">
+        <div className="lg:ml-20 2xl:ml-96">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>
