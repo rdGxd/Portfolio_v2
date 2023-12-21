@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
-              <img src="../../public/logo.svg" className="w-4 h-4 mr-1" />
+              <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1" />
               <span className="text-base font-medium text-white mr-6">
                 Rodrigo
               </span>
@@ -29,17 +29,17 @@ export const Footer = () => {
                     href="https://github.com/rdGxd"
                     className="hover:underline"
                   >
-                    <img src="../../public/Git.svg" alt="" />
+                    <img src="/assets/images/Git.svg" alt="" />
                   </a>
                 </li>
                 <li className="mr-4">
                   <a href="#" className="hover:underline">
-                    <img src="../../public/Figma.svg" alt="" />
+                    <img src="/assets/images/Figma.svg" alt="" />
                   </a>
                 </li>
                 <li className="">
                   <a href="#" className="hover:underline">
-                    <img src="../../public/Discord.svg" alt="" />
+                    <img src="/assets/images/Discord.svg" alt="" />
                   </a>
                 </li>
               </ul>

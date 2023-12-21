@@ -8,7 +8,7 @@ export const Header = () => {
     <>
       <div className="flex items-center justify-around border-b border-gray py-8">
         <NavLink to="/" className="flex items-center">
-          <img src="../../public/logo.svg" alt="logo" className="w-4 h-4" />
+          <img src="/assets/images/logo.svg" alt="logo" className="w-4 h-4" />
           <p className="text-white ml-2">Rodrigo</p>
         </NavLink>
         <nav>
@@ -17,8 +17,11 @@ export const Header = () => {
               className="HAMBURGER-ICON space-y-2"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-
-              <img src="../../public/MenuMobile.svg" alt="" className="w-6 h-6"/>
+              <img
+                src="/assets/images/MenuMobile.svg"
+                alt=""
+                className="w-6 h-6"
+              />
             </div>
 
             <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
@@ -28,7 +31,7 @@ export const Header = () => {
                   className="flex items-center absolute top-0 right-0 px-[75%] py-4"
                 >
                   <img
-                    src="../../public/logo.svg"
+                    src="/assets/images/logo.svg"
                     alt="logo"
                     className="w-4 h-4"
                   />
@@ -40,10 +43,7 @@ export const Header = () => {
                 className="absolute top-0 right-0 px-8 py-8"
                 onClick={() => setIsNavOpen(false)}
               >
-                <img
-                  src="../../public/CloseMenuMobile.svg"
-                  alt=""
-                />
+                <img src="/assets/images/CloseMenuMobile.svg" alt="" />
               </div>
               <ul className="flex flex-col items-center justify-between min-h-[250px]">
                 <li className=" text-gray hover:text-white">

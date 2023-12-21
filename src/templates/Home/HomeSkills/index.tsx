@@ -8,7 +8,7 @@ export const HomeSkills = () => {
       </div>
       <div className="flex">
         <div className="ml-[250px] flex">
-          <img src="../../public/SkillsDots.svg" alt="" />
+          <img src="/assets/images/SkillsDots.svg" alt="" />
         </div>
 
         <div className="grid grid-cols-3 ml-60 gap-3 w-[584px] mt-11">

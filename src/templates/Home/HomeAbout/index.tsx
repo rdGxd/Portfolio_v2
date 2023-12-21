@@ -38,7 +38,7 @@ export const HomeAbout = () => {
           </div>
         </div>
         <div className="ml-80">
-          <img src="../../public/HomeAbout.svg" alt="" />
+          <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>
     </>

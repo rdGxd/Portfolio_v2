@@ -19,12 +19,12 @@ export const Contacts = () => {
           <div className="border border-gray p-4 ml-[480px]">
             <p className="text-white font-semibold ">Message me here</p>
             <div className="flex text-gray mt-4">
-              <img src="../../public/Discord.svg" alt="" className=" mr-3" />
+              <img src="/assets/images/Discord.svg" alt="" className=" mr-3" />
               <p className="">_rdg</p>
             </div>
 
             <div className="flex text-gray mt-4">
-              <img src="../../public/Email.svg" alt="" className=" mr-3" />
+              <img src="/assets/images/Email.svg" alt="" className=" mr-3" />
               <p className="">rodriigo.hora@outlook.com.br</p>
             </div>
           </div>
@@ -37,7 +37,7 @@ export const Contacts = () => {
             className="flex text-gray mt-5 mr-5 items-center"
             target="_blank"
           >
-            <img src="../../public/Twitter.svg" alt="" />
+            <img src="/assets/images/Twitter.svg" alt="" />
             <p className="ml-2">@rdGxd</p>
           </a>
 
@@ -46,7 +46,7 @@ export const Contacts = () => {
             className="flex text-gray mt-5 mr-5 items-center"
             target="_blank"
           >
-            <img src="../../public/Linkedin.svg" alt="" />
+            <img src="/assets/images/Linkedin.svg" alt="" />
             <p className="ml-2">rdgxd</p>
           </a>
 
@@ -55,7 +55,7 @@ export const Contacts = () => {
             className="flex text-gray mt-5 items-center"
             target="_blank"
           >
-            <img src="../../public/Github.svg" alt="" />
+            <img src="/assets/images/Github.svg" alt="" />
             <p className="ml-2">rdGxd</p>
           </a>
         </div>

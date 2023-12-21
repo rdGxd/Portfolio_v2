@@ -28,7 +28,7 @@ export const AboutMe = () => {
           </p>
         </div>
         <div className="ml-[600px]">
-          <img src="../../public/HomeAbout.svg" alt="" />
+          <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>
 
@@ -115,7 +115,7 @@ export const AboutMe = () => {
             I don’t have any siblings{" "}
           </p>
         </div>
-        <img src="../../public/AboutFun.svg" alt="" className="ml-96" />
+        <img src="/assets/images/AboutFun.svg" alt="" className="ml-96" />
       </div>
     </>
   );

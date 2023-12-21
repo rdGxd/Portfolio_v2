@@ -18,7 +18,7 @@ export const First = () => {
           </a>
         </div>
         <div className="w-[469px] ml-6">
-          <img src="../../public/ImageHome.svg" alt="" />
+          <img src="/assets/images/ImageHome.svg" alt="" />
           <div className="rounded border border-white ml-6 items-center flex p-2">
             <span className="w-4 h-4 bg-primary border border-primary " />
             <p className="text-gray ml-[10px]">

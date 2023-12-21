@@ -15,12 +15,12 @@ export const HomeContacts = () => {
         <div className="border border-gray p-4 ml-80">
           <p className="text-white font-semibold ">Message me here</p>
           <div className="flex text-gray mt-4">
-            <img src="../../public/Discord.svg" alt="" className=" mr-3" />
+            <img src="/assets/images/Discord.svg" alt="" className=" mr-3" />
             <p className="">_rdg</p>
           </div>
 
           <div className="flex text-gray mt-4">
-            <img src="../../public/Email.svg" alt="" className=" mr-3" />
+            <img src="/assets/images/Email.svg" alt="" className=" mr-3" />
             <p className="">rodriigo.hora@outlook.com.br</p>
           </div>
         </div>

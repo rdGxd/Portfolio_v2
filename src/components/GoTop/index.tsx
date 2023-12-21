@@ -6,7 +6,7 @@ export const GoTop = () => {
       aria-label="Go to top"
       title="Go to top"
     >
-      <img src="../../public/Arrow.svg" alt="" />
+      <img src="/assets/images/Arrow.svg" alt="" />
     </a>
   );
 };

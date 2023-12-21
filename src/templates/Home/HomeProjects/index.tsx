@@ -18,7 +18,7 @@ export const HomeProjects = () => {
         <div className="w-80 h-52 border border-gray">
           <NavLink to="#">
             <img
-              src="../../public/projectsPhotos/1.png"
+              src="/assets/projectsPhotos/1.png"
               alt=""
               className="w-full h-full"
             />
@@ -53,7 +53,7 @@ export const HomeProjects = () => {
         <div className="w-80 h-52 border border-gray">
           <NavLink to="#">
             <img
-              src="../../public/projectsPhotos/2.png"
+              src="/assets/projectsPhotos/2.png"
               alt=""
               className="w-full h-full"
             />
@@ -88,7 +88,7 @@ export const HomeProjects = () => {
         <div className="w-80 h-52 border border-gray">
           <NavLink to="#">
             <img
-              src="../../public/projectsPhotos/3.png"
+              src="/assets/projectsPhotos/3.png"
               alt=""
               className="w-full h-full"
             />

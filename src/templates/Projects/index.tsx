@@ -19,7 +19,7 @@ export const Projects = () => {
               target="_blank"
             >
               <img
-                src="../../public/projectsPhotos/1.png"
+                src="/assets/projectsPhotos/1.png"
                 alt=""
                 className="w-full h-full"
               />
@@ -57,7 +57,7 @@ export const Projects = () => {
               target="_blank"
             >
               <img
-                src="../../public/projectsPhotos/2.png"
+                src="/assets/projectsPhotos/2.png"
                 alt=""
                 className="w-full h-full"
               />
@@ -95,7 +95,7 @@ export const Projects = () => {
               target="_blank"
             >
               <img
-                src="../../public/projectsPhotos/3.png"
+                src="/assets/projectsPhotos/3.png"
                 alt=""
                 className="w-full h-full"
               />
@@ -133,7 +133,7 @@ export const Projects = () => {
               target="_blank"
             >
               <img
-                src="../../public/projectsPhotos/Pomodoro.png"
+                src="/assets/projectsPhotos/Pomodoro.png"
                 alt=""
                 className="w-full h-full"
               />
@@ -169,7 +169,7 @@ export const Projects = () => {
               target="_blank"
             >
               <img
-                src="../../public/projectsPhotos/JogoDaVelha.png"
+                src="/assets/projectsPhotos/JogoDaVelha.png"
                 alt=""
                 className="w-full h-full"
               />
@@ -207,7 +207,7 @@ export const Projects = () => {
               target="_blank"
             >
               <img
-                src="../../public/projectsPhotos/Lista.png"
+                src="/assets/projectsPhotos/Lista.png"
                 alt=""
                 className="w-full h-full"
               />
