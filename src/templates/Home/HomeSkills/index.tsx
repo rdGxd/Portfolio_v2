@@ -3,7 +3,7 @@ import { HomeH2 } from "../../../components/HomeH2";
 export const HomeSkills = () => {
   return (
     <>
-      <div className="flex items-center ml-52 mt-[300px]">
+      <div className="flex items-center 2xl:ml-52 mt-[300px] md:ml-10">
         <HomeH2 title="skills" />
       </div>
       <div className="flex">

@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "../public/assets/styles/index.css";
 import App from "./App.tsx";
-import "./assets/styles/index.css";
 import { Footer } from "./components/Footer/index.tsx";
 import { Header } from "./components/Header/index.tsx";
-import { Contacts } from "./templates/Contacts/index.tsx";
 import { AboutMe } from "./templates/About/index.tsx";
+import { Contacts } from "./templates/Contacts/index.tsx";
 import { Projects } from "./templates/Projects/index.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

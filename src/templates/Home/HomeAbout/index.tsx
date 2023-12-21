@@ -4,11 +4,11 @@ import { HomeH2 } from "../../../components/HomeH2";
 export const HomeAbout = () => {
   return (
     <>
-      <div className="flex ml-52 mt-28">
+      <div className="flex 2xl:ml-52 mt-28 md:ml-10">
         <HomeH2 title="about-me" />
       </div>
       <div className="flex md:flex-wrap 2xl:ml-62">
-        <div className="w-[515px] mt-6 ml-60">
+        <div className="w-[515px] mt-6 ml-60 md:ml-16 2xl:ml-64">
           <p className="text-gray">
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
             2022 venho buscando o conhecimento de mim para mim, seja atuando em
@@ -37,7 +37,7 @@ export const HomeAbout = () => {
             </NavLink>
           </div>
         </div>
-        <div className="lg:ml-20 2xl:ml-96">
+        <div className="lg:ml-72 2xl:ml-96 md:ml-64">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>

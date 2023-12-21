@@ -4,7 +4,7 @@ import { HomeH2 } from "../../../components/HomeH2";
 export const HomeProjects = () => {
   return (
     <>
-      <div className="flex items-center lg:ml-52 mt-[74px] md:flex-wrap md:ml-10">
+      <div className="flex items-center 2xl:ml-52 mt-[74px] md:flex-wrap md:ml-10">
         <HomeH2 title="projects" />
         <NavLink
           to={"/projects"}
@@ -14,15 +14,15 @@ export const HomeProjects = () => {
         </NavLink>
       </div>
 
-      <div className="grid lg:grid-cols-3 2xl:grid-cols-4 lg:ml-44 mt-12 2xl:ml-96 justify-items-center">
+      <div className="grid lg:grid-cols-3 2xl:grid-cols-4 mt-12 2xl:ml-96 justify-items-center">
         <div className="w-80 h-52 border border-gray">
-          <NavLink to="#">
+          <a href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/">
             <img
               src="/assets/projectsPhotos/1.png"
               alt=""
               className="w-full h-full"
             />
-          </NavLink>
+          </a>
           <p className="text-gray border border-gray p-2">
             NextJS, TypeScript, Styled-Components, GraphQL
           </p>
@@ -51,13 +51,13 @@ export const HomeProjects = () => {
         </div>
 
         <div className="w-80 h-52 border border-gray">
-          <NavLink to="#">
+          <a href="https://blog-front-end-with-nextjs-and-react.vercel.app/">
             <img
               src="/assets/projectsPhotos/2.png"
               alt=""
               className="w-full h-full"
             />
-          </NavLink>
+          </a>
           <p className="text-gray border border-gray p-2">
             NextJS, TypeScript, Styled-Components, GraphQL, Disqus
           </p>
@@ -86,13 +86,13 @@ export const HomeProjects = () => {
         </div>
 
         <div className="w-80 h-52 border border-gray">
-          <NavLink to="#">
+          <a href="https://landing-pages-front-end.vercel.app/">
             <img
               src="/assets/projectsPhotos/3.png"
               alt=""
               className="w-full h-full"
             />
-          </NavLink>
+          </a>
           <p className="text-gray border border-gray p-2">
             React, Styled-icons, Styled-Components
           </p>
