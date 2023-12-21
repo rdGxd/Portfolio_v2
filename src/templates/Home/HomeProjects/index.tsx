@@ -4,17 +4,17 @@ import { HomeH2 } from "../../../components/HomeH2";
 export const HomeProjects = () => {
   return (
     <>
-      <div className="flex items-center ml-52 mt-[74px]">
+      <div className="flex items-center ml-52 mt-[74px] md:flex-wrap md:ml-10">
         <HomeH2 title="projects" />
         <NavLink
           to={"/projects"}
-          className="text-white text-base font-medium ml-52"
+          className="text-white text-base font-medium ml-52 md:ml-4"
         >
           view all ~~&gt;{" "}
         </NavLink>
       </div>
 
-      <div className="grid grid-cols-4 ml-44 mt-12 justify-items-center">
+      <div className="grid grid-cols-4 ml-44 mt-12 justify-items-center ">
         <div className="w-80 h-52 border border-gray">
           <NavLink to="#">
             <img

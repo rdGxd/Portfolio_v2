@@ -1,7 +1,7 @@
 export const First = () => {
   return (
     <>
-      <div className="flex justify-center">
+      <div className="flex justify-center md:flex-wrap">
         <div className="mt-16 w-[537px]">
           <h1 className="text-white font-semibold text-[32px] ">
             Rodrigo is a <span className="text-primary">web designer</span> and{" "}
