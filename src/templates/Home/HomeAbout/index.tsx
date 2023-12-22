@@ -37,7 +37,7 @@ export const HomeAbout = () => {
             </NavLink>
           </div>
         </div>
-        <div className="lg:ml-72 2xl:ml-96 md:ml-64">
+        <div className="lg:ml-72 2xl:ml-96 md:ml-32">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>

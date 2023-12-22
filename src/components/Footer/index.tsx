@@ -2,14 +2,14 @@ export const Footer = () => {
   return (
     <footer className="border-t border-gray mt-36">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex md:justify-between">
+        <div className="md:flex ">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1" />
-              <span className="text-base font-medium text-white mr-6">
+              <span className="text-base font-medium text-white mr-6 md:mr-1">
                 Rodrigo
               </span>
-              <span className="ml-3 text-gray">
+              <span className="ml-3 md:ml-1 text-gray">
                 rodriigo.hora@outlook.com.br
               </span>
             </a>
@@ -18,7 +18,7 @@ export const Footer = () => {
             </span>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:flex md:flex-wrap md:ml-10">
             <div>
               <h2 className="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Media
