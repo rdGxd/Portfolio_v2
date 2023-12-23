@@ -12,7 +12,7 @@ export const Header = () => {
           <p className="ml-2 text-white">Rodrigo</p>
         </NavLink>
         <nav>
-          <article className="flex MOBILE-MENU lg:hidden">
+          <article className="flex MOBILE-MENU xl:hidden">
             <div
               className="space-y-2 HAMBURGER-ICON"
               onClick={() => setIsNavOpen((prev) => !prev)}
@@ -70,7 +70,7 @@ export const Header = () => {
             </div>
           </article>
 
-          <ul className="hidden space-x-8 DESKTOP-MENU lg:flex">
+          <ul className="hidden space-x-8 DESKTOP-MENU xl:flex">
             <li className=" text-gray hover:text-white">
               <NavLink to="/">
                 <span className="text-primary">#</span>home

@@ -6,12 +6,12 @@ export const AboutMe = () => {
     <main>
       <TitlePage title="about-me" />
       <article className="flex ">
-        <div className="w-[515px] mt-6 ml-[220px] lg:ml-44">
+        <div className="w-[515px] mt-6 ml-[220px] xl:ml-44">
           <p className="text-gray">
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
             2022 venho buscando o conhecimento de mim para mim, seja atuando em
             projetos próprios para aprimorar o aprendizado ou acompanhando
-            alguns projetos terceiros <br />
+            axluns projetos terceiros <br />
             <br />e boas práticas e princípios de programação. . Também tenho
             experiência em Montagem e manutenção de computadores
             <br />
@@ -27,17 +27,17 @@ export const AboutMe = () => {
             ao máximo da oportunidade.
           </p>
         </div>
-        <div className="2xl:ml-[500px] lg:ml-28">
+        <div className="2xl:ml-[500px] xl:ml-28">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </article>
 
-      <div className="flex mt-[53px] ml-[205px] lg:ml-40">
+      <div className="flex mt-[53px] ml-[205px] xl:ml-40">
         <H2Pages title="skills" />
       </div>
 
-      <section className="flex mt-4 ml-52 lg:ml-44 2xl:ml-44">
-        <div className="mr-4 border 2xl:w-64 lg:w-44 border-gray">
+      <section className="flex mt-4 ml-52 xl:ml-44 2xl:ml-44">
+        <div className="mr-4 border 2xl:w-64 xl:w-44 border-gray">
           <h3 className="p-2 text-white">Languages</h3>
           <div className="p-2 border-t border-gray text-gray">
             <p>JavaScript</p>
@@ -46,7 +46,7 @@ export const AboutMe = () => {
           </div>
         </div>
 
-        <div className="mr-4 border 2xl:w-64 border-gray lg:w-44">
+        <div className="mr-4 border 2xl:w-64 border-gray xl:w-44">
           <h3 className="p-2 text-white">Databases</h3>
           <div className="p-2 border-t border-gray text-gray">
             <p>MongoDB</p>
@@ -55,7 +55,7 @@ export const AboutMe = () => {
           </div>
         </div>
 
-        <div className="mr-4 border 2xl:w-64 border-gray lg:w-44">
+        <div className="mr-4 border 2xl:w-64 border-gray xl:w-44">
           <h3 className="p-2 text-white">Tools</h3>
           <div className="p-2 border-t border-gray text-gray ">
             <p>VSCode</p>
@@ -65,7 +65,7 @@ export const AboutMe = () => {
           </div>
         </div>
         <br />
-        <div className="mr-4 border 2xl:w-64 border-gray lg:w-44">
+        <div className="mr-4 border 2xl:w-64 border-gray xl:w-44">
           <h3 className="p-2 text-white">Other</h3>
           <div className="p-2 border-t border-gray text-gray">
             <p>HTML</p>
@@ -75,7 +75,7 @@ export const AboutMe = () => {
             <p>SCSS</p>
           </div>
         </div>
-        <div className="border 2xl:w-64 border-gray lg:w-44">
+        <div className="border 2xl:w-64 border-gray xl:w-44">
           <h3 className="p-2 text-white">FrameWorks</h3>
           <div className="p-2 border-t border-gray text-gray">
             <p>React</p>
@@ -87,11 +87,11 @@ export const AboutMe = () => {
         </div>
       </section>
 
-      <div className="flex mt-[53px] ml-[205px] lg:ml-40">
+      <div className="flex mt-[53px] ml-[205px] xl:ml-40">
         <H2Pages title="my-fun-facts" />
       </div>
 
-      <section className="flex ml-52 lg:ml-40">
+      <section className="flex ml-52 xl:ml-40">
         <div className="grid items-center grid-cols-2 gap-3 mt-5">
           <p className="p-1 border text-gray border-gray">
             I like winter more than summer
@@ -118,7 +118,7 @@ export const AboutMe = () => {
         <img
           src="/assets/images/AboutFun.svg"
           alt=""
-          className="2xl:ml-96 lg:ml-28"
+          className="2xl:ml-96 xl:ml-28"
         />
       </section>
     </main>

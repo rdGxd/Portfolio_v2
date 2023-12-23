@@ -13,7 +13,7 @@ export const HomeAbout = () => {
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
             2022 venho buscando o conhecimento de mim para mim, seja atuando em
             projetos próprios para aprimorar o aprendizado ou acompanhando
-            alguns projetos terceiros <br />
+            axluns projetos terceiros <br />
             <br />e boas práticas e princípios de programação. . Também tenho
             experiência em Montagem e manutenção de computadores
             <br />
@@ -37,7 +37,7 @@ export const HomeAbout = () => {
             </NavLink>
           </div>
         </div>
-        <div className="lg:ml-72 2xl:ml-96 md:ml-32">
+        <div className="xl:ml-72 2xl:ml-96 md:ml-32">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>

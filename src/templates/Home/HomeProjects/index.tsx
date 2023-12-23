@@ -8,13 +8,13 @@ export const HomeProjects = () => {
         <HomeH2 title="projects" />
         <NavLink
           to={"/projects"}
-          className="text-white text-base font-medium lg:ml-52 md:ml-4 2xl:ml-[650px]"
+          className="text-white text-base font-medium xl:ml-52 md:ml-4 2xl:ml-[650px]"
         >
           view all ~~&gt;{" "}
         </NavLink>
       </div>
 
-      <div className="grid mt-12 lg:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center">
+      <div className="grid mt-12 xl:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center">
         <div className="border w-80 h-52 border-gray">
           <a href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/">
             <img

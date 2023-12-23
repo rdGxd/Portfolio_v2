@@ -1,8 +1,8 @@
 export const Footer = () => {
   return (
     <footer className="border-t border-gray mt-36">
-      <div className="w-full max-w-screen-xl p-4 py-6 mx-auto lg:py-8">
-        <div className="flex lg:justify-center">
+      <div className="w-full max-w-screen-xl p-4 py-6 mx-auto xl:py-8">
+        <div className="flex xl:justify-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1" />

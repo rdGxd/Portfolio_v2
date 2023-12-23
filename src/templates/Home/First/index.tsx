@@ -12,7 +12,7 @@ export const First = () => {
           </p>
           <a
             href="mailto:rodriigo.hora@outlook.com.br"
-            className="flex items-center justify-center h-10 mt-5 text-base font-medium text-white border rounded-lg w-36 border-primary"
+            className="flex items-center justify-center h-10 mt-5 text-base font-medium text-white border rounded-xl w-36 border-primary"
           >
             Contact me!!
           </a>

@@ -6,9 +6,9 @@ export const Projects = () => {
     <main>
       <TitlePage title="projects" />
 
-      <article className="ml-[205px] mt-4">
+      <article className="2xl:ml-[205px] 2xl:mt-4 xl:ml-44 xl:mt-4">
         <p className="text-white">List of my projects</p>
-        <div className="mt-16 mb-5">
+        <div className="mb-5 2xl:mt-10 xl:mt-5">
           <H2Pages title="complete-apps" />
         </div>
 
