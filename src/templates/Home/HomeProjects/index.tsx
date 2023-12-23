@@ -15,7 +15,7 @@ export const HomeProjects = () => {
       </div>
 
       <div className="grid mt-12 xl:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center lg:flex md:flex md:flex-wrap sm:flex-wrap">
-        <div className="border w-80 h-52 border-gray lg:mr-4 lg:ml-2 md:ml-10">
+        <div className="border w-80 h-52 border-gray lg:mr-4 lg:ml-16 md:ml-10 ">
           <a href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/">
             <img
               src="/assets/projectsPhotos/1.png"
@@ -50,7 +50,7 @@ export const HomeProjects = () => {
           </div>
         </div>
 
-        <div className="border w-80 h-52 border-gray lg:mr-4 md:ml-5 sm:mt-72">
+        <div className="border w-80 h-52 border-gray lg:mr-4 md:ml-5 sm:mt-72 2xl:mt-0 lg:mt-0 md:mt-0 ">
           <a href="https://blog-front-end-with-nextjs-and-react.vercel.app/">
             <img
               src="/assets/projectsPhotos/2.png"
@@ -85,7 +85,7 @@ export const HomeProjects = () => {
           </div>
         </div>
 
-        <div className="border w-80 h-52 border-gray md:mt-64 md:ml-10 sm:mt-72">
+        <div className="border w-80 h-52 border-gray md:mt-64 md:ml-10 sm:mt-72 2xl:mt-0 lg:ml-16 2xl:ml-5 xl:mt-0 xl:ml-5">
           <a href="https://landing-pages-front-end.vercel.app/">
             <img
               src="/assets/projectsPhotos/3.png"

@@ -9,7 +9,7 @@ export const Contacts = () => {
       <article className="2xl:ml-44 xl:ml-44 lg:ml-36 md:ml-20 sm:ml-24">
         <p className="mt-4 text-white">Quem sou eu? </p>
 
-        <section className="flex items-center md:mb-10 sm:ml-0 sm:flex-wrap sm:flex">
+        <section className="flex items-center md:mb-10 sm:ml-0 sm:flex-wrap sm:flex lg:flex-nowrap lg:mb-0">
           <p className="text-gray">
             Estou interessado em oportunidades freelance. No entanto, <br /> se
             você tiver outra solicitação ou dúvida, não <br />
@@ -31,7 +31,7 @@ export const Contacts = () => {
         </section>
 
         <H2Pages title="all-media" />
-        <section className="flex md:mb-10 sm:mb-5">
+        <section className="flex md:mb-10 sm:mb-5 ">
           <a
             href="https://twitter.com/rdGxd"
             className="flex items-center mt-5 mr-5 text-gray"

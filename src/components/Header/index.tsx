@@ -102,7 +102,7 @@ export const Header = () => {
         position: absolute;
         font-size: 2rem;
         width: 100%;
-        height: 70vh;
+        height: 100vh;
         top: 0;
         left: 0;
         background: #282C33;
