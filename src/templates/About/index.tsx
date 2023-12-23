@@ -6,7 +6,7 @@ export const AboutMe = () => {
     <main>
       <TitlePage title="about-me" />
       <article className="flex ">
-        <div className="w-[515px] mt-6 ml-[220px] xl:ml-44 lg:ml-36">
+        <div className="w-[515px] mt-6 ml-[220px] xl:ml-44 lg:ml-36 md:ml-10">
           <p className="text-gray">
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
             2022 venho buscando o conhecimento de mim para mim, seja atuando em
@@ -27,16 +27,16 @@ export const AboutMe = () => {
             ao máximo da oportunidade.
           </p>
         </div>
-        <div className="2xl:ml-[500px] xl:ml-28">
+        <div className="2xl:ml-[500px] xl:ml-28 md:mt-10 md:ml-2">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </article>
 
-      <div className="flex mt-[53px] ml-[205px] xl:ml-40 lg:ml-32">
+      <div className="flex mt-[53px] ml-[205px] xl:ml-40 lg:ml-32 md:ml-20">
         <H2Pages title="skills" />
       </div>
 
-      <section className="flex mt-4 ml-52 xl:ml-44 2xl:ml-44 lg:ml-20">
+      <section className="flex mt-4 ml-52 xl:ml-44 2xl:ml-44 lg:ml-20 md:ml-14">
         <div className="mr-4 border 2xl:w-64 xl:w-44 border-gray lg:w-40">
           <h3 className="p-2 text-white">Languages</h3>
           <div className="p-2 border-t border-gray text-gray">
@@ -65,7 +65,7 @@ export const AboutMe = () => {
           </div>
         </div>
         <br />
-        <div className="mr-4 border 2xl:w-64 border-gray xl:w-44 lg:w-40">
+        <div className="mr-4 border 2xl:w-64 border-gray xl:w-44 lg:w-40 md:w-28">
           <h3 className="p-2 text-white">Other</h3>
           <div className="p-2 border-t border-gray text-gray">
             <p>HTML</p>
@@ -87,11 +87,11 @@ export const AboutMe = () => {
         </div>
       </section>
 
-      <div className="flex mt-[53px] ml-[205px] xl:ml-40 lg:ml-32">
+      <div className="flex mt-[53px] ml-[205px] xl:ml-40 lg:ml-32 md:ml-20">
         <H2Pages title="my-fun-facts" />
       </div>
 
-      <section className="flex ml-52 xl:ml-40 lg:ml-10">
+      <section className="flex ml-52 xl:ml-40 lg:ml-10 md:flex-wrap md:ml-0 md:justify-center">
         <div className="grid items-center grid-cols-2 gap-3 mt-5">
           <p className="p-1 border text-gray border-gray">
             I like winter more than summer
@@ -118,7 +118,7 @@ export const AboutMe = () => {
         <img
           src="/assets/images/AboutFun.svg"
           alt=""
-          className="2xl:ml-96 xl:ml-28 lg:ml-10"
+          className="2xl:ml-96 xl:ml-28 lg:ml-10 md:mt-10 md:mb-10"
         />
       </section>
     </main>

@@ -6,14 +6,14 @@ export const Projects = () => {
     <main>
       <TitlePage title="projects" />
 
-      <article className="2xl:ml-[205px] 2xl:mt-4 xl:ml-44 xl:mt-4 lg:ml-36 lg:mt-4">
-        <p className="text-white">List of my projects</p>
-        <div className="mb-5 2xl:mt-10 xl:mt-5 lg:mt-4">
+      <article className="2xl:ml-[205px] 2xl:mt-4 xl:ml-44 xl:mt-4 lg:ml-36 lg:mt-4 md:mt-5">
+        <p className="text-white md:ml-24">List of my projects</p>
+        <div className="mb-5 2xl:mt-10 xl:mt-5 lg:mt-4 md:mt-4 md:ml-24">
           <H2Pages title="complete-apps" />
         </div>
 
-        <section className="flex flex-wrap ">
-          <div className="mr-6 border w-80 h-52 border-gray mb-72">
+        <section className="flex flex-wrap">
+          <div className="mr-6 border w-80 h-52 border-gray mb-72 md:w-full md:ml-4 md:mr-4 md:mb-48">
             <a
               href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/"
               target="_blank"
@@ -51,7 +51,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="mr-6 border w-80 h-52 border-gray">
+          <div className="mt-10 mr-6 border w-80 h-52 border-gray md:w-full mb-72 md:ml-4 md:mr-4 md:mb-56">
             <a
               href="https://blog-front-end-with-nextjs-and-react.vercel.app/"
               target="_blank"
@@ -89,7 +89,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="mr-6 border w-80 h-52 border-gray">
+          <div className="mr-6 border w-80 h-52 border-gray md:w-full md:ml-4 md:mr-4 mb-72 md:mb-56">
             <a
               href="https://landing-pages-front-end.vercel.app/"
               target="_blank"
@@ -127,7 +127,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="mr-6 border w-80 h-52 border-gray">
+          <div className="mr-6 border w-80 h-52 border-gray md:w-full md:ml-4 md:mr-4 mb-72 md:mb-56">
             <a
               href="https://typescript-pomodoro-react-psi.vercel.app/"
               target="_blank"
@@ -163,7 +163,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="mr-6 border w-80 h-52 border-gray lg:mt-64">
+          <div className="mb-64 mr-6 border w-80 h-52 border-gray lg:mt-64 md:w-full md:ml-4 md:mr-4 md:mb-56">
             <a
               href="https://jogo-da-velha-com-react-hooks-e-react-context.vercel.app/"
               target="_blank"
@@ -201,7 +201,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="border w-80 h-52 border-gray mb-72 lg:mt-56">
+          <div className="border w-80 h-52 border-gray mb-72 lg:mt-56 md:w-full md:ml-4 md:mr-4">
             <a
               href="https://lista-tarefas-react-one.vercel.app/"
               target="_blank"
