@@ -8,13 +8,13 @@ export const HomeProjects = () => {
         <HomeH2 title="projects" />
         <NavLink
           to={"/projects"}
-          className="text-white text-base font-medium xl:ml-52 md:ml-4 2xl:ml-[650px]"
+          className="text-white text-base font-medium xl:ml-52 md:ml-4 2xl:ml-[650px] sm:ml-4"
         >
           view all ~~&gt;{" "}
         </NavLink>
       </div>
 
-      <div className="grid mt-12 xl:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center lg:flex md:flex md:flex-wrap">
+      <div className="grid mt-12 xl:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center lg:flex md:flex md:flex-wrap sm:flex-wrap">
         <div className="border w-80 h-52 border-gray lg:mr-4 lg:ml-2 md:ml-10">
           <a href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/">
             <img
@@ -50,7 +50,7 @@ export const HomeProjects = () => {
           </div>
         </div>
 
-        <div className="border w-80 h-52 border-gray lg:mr-4 md:ml-5">
+        <div className="border w-80 h-52 border-gray lg:mr-4 md:ml-5 sm:mt-72">
           <a href="https://blog-front-end-with-nextjs-and-react.vercel.app/">
             <img
               src="/assets/projectsPhotos/2.png"
@@ -85,7 +85,7 @@ export const HomeProjects = () => {
           </div>
         </div>
 
-        <div className="border w-80 h-52 border-gray md:mt-64 md:ml-10">
+        <div className="border w-80 h-52 border-gray md:mt-64 md:ml-10 sm:mt-72">
           <a href="https://landing-pages-front-end.vercel.app/">
             <img
               src="/assets/projectsPhotos/3.png"

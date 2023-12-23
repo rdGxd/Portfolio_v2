@@ -7,8 +7,8 @@ export const HomeAbout = () => {
       <div className="flex 2xl:ml-52 mt-28 md:ml-10">
         <HomeH2 title="about-me" />
       </div>
-      <div className="flex 2xl:ml-62 md:flex-wrap">
-        <div className="w-[515px] mt-6 ml-60 md:ml-16 2xl:ml-64 ">
+      <div className="flex 2xl:ml-62 md:flex-wrap sm:flex-wrap ">
+        <div className="w-[515px] mt-6 ml-60 md:ml-16 2xl:ml-64 sm:ml-10">
           <p className="text-gray">
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
             2022 venho buscando o conhecimento de mim para mim, seja atuando em
@@ -37,7 +37,7 @@ export const HomeAbout = () => {
             </NavLink>
           </div>
         </div>
-        <div className="xl:ml-72 2xl:ml-96 md:ml-32 md:w-full">
+        <div className="xl:ml-72 2xl:ml-96 md:ml-32 md:w-full sm:ml-36">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>

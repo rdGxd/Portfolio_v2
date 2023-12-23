@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <footer className="border-t border-gray lg:mt-10">
       <div className="w-full max-w-screen-xl p-4 py-6 mx-auto xl:py-8">
-        <div className="flex lg:justify-center 2xl:justify-around md:ml-10">
+        <div className="flex lg:justify-center 2xl:justify-around md:ml-10 sm:flex-wrap sm:justify-center">
           <div className="mb-6 md:mb-0 ">
             <a href="#" className="flex items-center">
               <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1" />
@@ -18,7 +18,7 @@ export const Footer = () => {
             </span>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:flex md:flex-wrap md:ml-28">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:flex md:flex-wrap md:ml-28 sm:justify-center sm:flex sm:ml-5">
             <div>
               <h2 className="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Media
@@ -46,7 +46,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-12">
+        <div className="flex justify-center mt-12 sm:mt-5">
           <span className="text-sm text-gray sm:text-center">
             © Copyright 2022. Made by Rodrigo
           </span>

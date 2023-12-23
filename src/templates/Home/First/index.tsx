@@ -1,7 +1,7 @@
 export const First = () => {
   return (
     <article>
-      <div className="flex justify-center md:flex-wrap">
+      <div className="flex justify-center md:flex-wrap sm:flex-wrap">
         <div className="mt-16 w-[537px]">
           <h1 className="text-white font-semibold text-[32px] ">
             Rodrigo is a <span className="text-primary">web designer</span> and{" "}
@@ -30,12 +30,12 @@ export const First = () => {
 
       <div className="flex justify-center ">
         <div>
-          <blockquote className="flex justify-center p-8 text-white mt-28 border border-gray w-[712px] ">
+          <blockquote className="flex justify-center p-8 text-white mt-28 border border-gray w-[712px] sm:w-full">
             <q className="text-xl font-medium">
               With great power comes great electricity bill
             </q>
           </blockquote>
-          <p className="text-white font-normal text-2xl border-l border-r border-b border-gray flex w-40 p-2 ml-[552px]">
+          <p className="text-white font-normal text-2xl border-l border-r border-b border-gray flex w-40 p-2 ml-[552px] sm:ml-96">
             - Dr. Who
           </p>
         </div>
