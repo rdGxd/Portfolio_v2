@@ -6,7 +6,7 @@ export const Contacts = () => {
     <main>
       <TitlePage title="contacts" />
 
-      <article className="2xl:ml-44 xl:ml-44">
+      <article className="2xl:ml-44 xl:ml-44 lg:ml-36">
         <p className="mt-4 text-white">Quem sou eu? </p>
 
         <section className="flex items-center">
@@ -16,7 +16,7 @@ export const Contacts = () => {
             hesite em entrar em contato comigo
           </p>
 
-          <div className="p-4 border border-gray 2xl:ml-96 xl:ml-20">
+          <div className="p-4 border border-gray 2xl:ml-96 xl:ml-20 lg:mr-5">
             <p className="font-semibold text-white ">Message me here</p>
             <div className="flex mt-4 text-gray">
               <img src="/assets/images/Discord.svg" alt="" className="mr-3 " />

@@ -14,8 +14,8 @@ export const HomeProjects = () => {
         </NavLink>
       </div>
 
-      <div className="grid mt-12 xl:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center">
-        <div className="border w-80 h-52 border-gray">
+      <div className="grid mt-12 xl:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center lg:flex">
+        <div className="border w-80 h-52 border-gray lg:mr-4 lg:ml-2">
           <a href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/">
             <img
               src="/assets/projectsPhotos/1.png"
@@ -50,7 +50,7 @@ export const HomeProjects = () => {
           </div>
         </div>
 
-        <div className="border w-80 h-52 border-gray">
+        <div className="border w-80 h-52 border-gray lg:mr-4">
           <a href="https://blog-front-end-with-nextjs-and-react.vercel.app/">
             <img
               src="/assets/projectsPhotos/2.png"

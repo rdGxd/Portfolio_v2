@@ -4,7 +4,7 @@ type TitlePageProps = {
 
 export const TitlePage = ({ title }: TitlePageProps) => {
   return (
-    <div className="flex mt-[53px] ml-[205px] xl:ml-40">
+    <div className="flex mt-[53px] ml-[205px] xl:ml-40 lg:ml-32">
       <h1 className="text-3xl font-semibold text-white">
         <span className="text-primary">/</span>
         {title}

@@ -6,13 +6,13 @@ export const Projects = () => {
     <main>
       <TitlePage title="projects" />
 
-      <article className="2xl:ml-[205px] 2xl:mt-4 xl:ml-44 xl:mt-4">
+      <article className="2xl:ml-[205px] 2xl:mt-4 xl:ml-44 xl:mt-4 lg:ml-36 lg:mt-4">
         <p className="text-white">List of my projects</p>
-        <div className="mb-5 2xl:mt-10 xl:mt-5">
+        <div className="mb-5 2xl:mt-10 xl:mt-5 lg:mt-4">
           <H2Pages title="complete-apps" />
         </div>
 
-        <section className="flex flex-wrap">
+        <section className="flex flex-wrap ">
           <div className="mr-6 border w-80 h-52 border-gray mb-72">
             <a
               href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/"
@@ -163,7 +163,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="mr-6 border w-80 h-52 border-gray">
+          <div className="mr-6 border w-80 h-52 border-gray lg:mt-64">
             <a
               href="https://jogo-da-velha-com-react-hooks-e-react-context.vercel.app/"
               target="_blank"
@@ -201,7 +201,7 @@ export const Projects = () => {
             </div>
           </div>
 
-          <div className="border w-80 h-52 border-gray mb-72">
+          <div className="border w-80 h-52 border-gray mb-72 lg:mt-56">
             <a
               href="https://lista-tarefas-react-one.vercel.app/"
               target="_blank"

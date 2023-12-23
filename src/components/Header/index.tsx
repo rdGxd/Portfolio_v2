@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
     <>
-      <div className="flex items-center justify-around py-8 border-b border-gray">
+      <div className="flex items-center justify-around py-8 border-b border-gray ">
         <NavLink to="/" className="flex items-center">
           <img src="/assets/images/logo.svg" alt="logo" className="w-4 h-4" />
           <p className="ml-2 text-white">Rodrigo</p>
