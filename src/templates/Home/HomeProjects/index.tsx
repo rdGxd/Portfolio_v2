@@ -3,7 +3,7 @@ import { HomeH2 } from "../../../components/HomeH2";
 
 export const HomeProjects = () => {
   return (
-    <>
+    <article>
       <div className="flex items-center 2xl:ml-52 mt-[74px] md:flex-wrap md:ml-10">
         <HomeH2 title="projects" />
         <NavLink
@@ -14,8 +14,8 @@ export const HomeProjects = () => {
         </NavLink>
       </div>
 
-      <div className="grid lg:grid-cols-3 2xl:grid-cols-4 mt-12 2xl:ml-96 justify-items-center">
-        <div className="w-80 h-52 border border-gray">
+      <div className="grid mt-12 lg:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center">
+        <div className="border w-80 h-52 border-gray">
           <a href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/">
             <img
               src="/assets/projectsPhotos/1.png"
@@ -23,11 +23,11 @@ export const HomeProjects = () => {
               className="w-full h-full"
             />
           </a>
-          <p className="text-gray border border-gray p-2">
+          <p className="p-2 border text-gray border-gray">
             NextJS, TypeScript, Styled-Components, GraphQL
           </p>
-          <div className="text-gray border border-gray p-4">
-            <h3 className="text-white font-medium text-22xl mb-4">
+          <div className="p-4 border text-gray border-gray">
+            <h3 className="mb-4 font-medium text-white text-22xl">
               Página de login
             </h3>
             <p className="mb-6">
@@ -36,21 +36,21 @@ export const HomeProjects = () => {
             <a
               href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/"
               target="_blank"
-              className="text-white font-medium text-base border border-primary py-2 px-4 center  hover:bg-primary duration-500 transition-all hover:brightness-50 mr-4"
+              className="px-4 py-2 mr-4 text-base font-medium text-white transition-all duration-500 border border-primary center hover:bg-primary hover:brightness-50"
             >
               Live &lt;~&gt;
             </a>
             <a
               href="https://github.com/rdGxd/FrontEnd_Strapi_Auth_With_Next.JS_and_NextAuth.JS"
               target="_blank"
-              className="text-white font-medium text-base border border-gray py-2 px-4 center  hover:bg-gray duration-500 transition-all hover:brightness-50"
+              className="px-4 py-2 text-base font-medium text-white transition-all duration-500 border border-gray center hover:bg-gray hover:brightness-50"
             >
               GitHub &lt;~&gt;
             </a>
           </div>
         </div>
 
-        <div className="w-80 h-52 border border-gray">
+        <div className="border w-80 h-52 border-gray">
           <a href="https://blog-front-end-with-nextjs-and-react.vercel.app/">
             <img
               src="/assets/projectsPhotos/2.png"
@@ -58,11 +58,11 @@ export const HomeProjects = () => {
               className="w-full h-full"
             />
           </a>
-          <p className="text-gray border border-gray p-2">
+          <p className="p-2 border text-gray border-gray">
             NextJS, TypeScript, Styled-Components, GraphQL, Disqus
           </p>
-          <div className="text-gray border border-gray p-4">
-            <h3 className="text-white font-medium text-22xl mb-4">
+          <div className="p-4 border text-gray border-gray">
+            <h3 className="mb-4 font-medium text-white text-22xl">
               Blog Pessoal
             </h3>
             <p className="mb-6">
@@ -71,21 +71,21 @@ export const HomeProjects = () => {
             <a
               href="https://blog-front-end-with-nextjs-and-react.vercel.app/"
               target="_blank"
-              className="text-white font-medium text-base border border-primary py-2 px-4 center  hover:bg-primary duration-500 transition-all hover:brightness-50 mr-4"
+              className="px-4 py-2 mr-4 text-base font-medium text-white transition-all duration-500 border border-primary center hover:bg-primary hover:brightness-50"
             >
               Live &lt;~&gt;
             </a>
             <a
               href="https://github.com/rdGxd/blog_front_end_with_nextjs--and_react"
               target="_blank"
-              className="text-white font-medium text-base border border-gray py-2 px-4 center  hover:bg-gray duration-500 transition-all hover:brightness-50"
+              className="px-4 py-2 text-base font-medium text-white transition-all duration-500 border border-gray center hover:bg-gray hover:brightness-50"
             >
               GitHub &lt;~&gt;
             </a>
           </div>
         </div>
 
-        <div className="w-80 h-52 border border-gray">
+        <div className="border w-80 h-52 border-gray">
           <a href="https://landing-pages-front-end.vercel.app/">
             <img
               src="/assets/projectsPhotos/3.png"
@@ -93,11 +93,11 @@ export const HomeProjects = () => {
               className="w-full h-full"
             />
           </a>
-          <p className="text-gray border border-gray p-2">
+          <p className="p-2 border text-gray border-gray">
             React, Styled-icons, Styled-Components
           </p>
-          <div className="text-gray border border-gray p-4">
-            <h3 className="text-white font-medium text-22xl mb-4">
+          <div className="p-4 border text-gray border-gray">
+            <h3 className="mb-4 font-medium text-white text-22xl">
               Landing Page
             </h3>
             <p className="mb-6">
@@ -106,20 +106,20 @@ export const HomeProjects = () => {
             <a
               href="https://landing-pages-front-end.vercel.app/"
               target="_blank"
-              className="text-white font-medium text-base border border-primary py-2 px-4 center  hover:bg-primary duration-500 transition-all hover:brightness-50 mr-4"
+              className="px-4 py-2 mr-4 text-base font-medium text-white transition-all duration-500 border border-primary center hover:bg-primary hover:brightness-50"
             >
               Live &lt;~&gt;
             </a>
             <a
               href="https://github.com/rdGxd/landing_pages_Front-End"
               target="_blank"
-              className="text-white font-medium text-base border border-gray py-2 px-4 center  hover:bg-gray duration-500 transition-all hover:brightness-50"
+              className="px-4 py-2 text-base font-medium text-white transition-all duration-500 border border-gray center hover:bg-gray hover:brightness-50"
             >
               GitHub &lt;~&gt;
             </a>
           </div>
         </div>
       </div>
-    </>
+    </article>
   );
 };

@@ -2,7 +2,7 @@ import { HomeH2 } from "../../../components/HomeH2";
 
 export const HomeSkills = () => {
   return (
-    <>
+    <article>
       <div className="flex items-center 2xl:ml-52 mt-[300px] md:ml-10">
         <HomeH2 title="skills" />
       </div>
@@ -62,6 +62,6 @@ export const HomeSkills = () => {
           </div>
         </div>
       </div>
-    </>
+    </article>
   );
 };

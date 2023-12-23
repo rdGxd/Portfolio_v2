@@ -7,13 +7,13 @@ import { HomeSkills } from "./HomeSkills";
 
 export const Home = () => {
   return (
-    <>
+    <main>
       <First />
       <HomeProjects />
       <HomeSkills />
       <HomeAbout />
       <HomeContacts />
       <GoTop />
-    </>
+    </main>
   );
 };

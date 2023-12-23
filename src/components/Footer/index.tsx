@@ -1,12 +1,12 @@
 export const Footer = () => {
   return (
     <footer className="border-t border-gray mt-36">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="md:flex ">
+      <div className="w-full max-w-screen-xl p-4 py-6 mx-auto lg:py-8">
+        <div className="flex lg:justify-center">
           <div className="mb-6 md:mb-0">
             <a href="#" className="flex items-center">
               <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1" />
-              <span className="text-base font-medium text-white mr-6 md:mr-1">
+              <span className="mr-6 text-base font-medium text-white md:mr-1">
                 Rodrigo
               </span>
               <span className="ml-3 md:ml-1 text-gray">
@@ -23,7 +23,7 @@ export const Footer = () => {
               <h2 className="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Media
               </h2>
-              <ul className="flex text-gray-500 dark:text-gray-400 font-medium">
+              <ul className="flex font-medium text-gray-500 dark:text-gray-400">
                 <li className="mr-4">
                   <a
                     href="https://github.com/rdGxd"
@@ -47,7 +47,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="flex justify-center mt-12">
-          <span className="text-sm text-gray sm:text-center dark:text-gray-400">
+          <span className="text-sm text-gray sm:text-center">
             © Copyright 2022. Made by Rodrigo
           </span>
         </div>

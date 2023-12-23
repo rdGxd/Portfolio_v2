@@ -2,7 +2,7 @@ import { HomeH2 } from "../../../components/HomeH2";
 
 export const HomeContacts = () => {
   return (
-    <>
+    <article>
       <div className="flex 2xl:ml-52 lg:mt-28 lg:mb-11 md:ml-10">
         <HomeH2 title="contacts" />
       </div>
@@ -12,19 +12,19 @@ export const HomeContacts = () => {
           tiver outra solicitação ou dúvida, não hesite em entrar em contato
           comigo
         </p>
-        <div className="border border-gray p-4 lg:ml-72 2xl:ml-96 md:mt-5">
-          <p className="text-white font-semibold ">Message me here</p>
-          <div className="flex text-gray mt-4">
-            <img src="/assets/images/Discord.svg" alt="" className=" mr-3" />
+        <div className="p-4 border border-gray lg:ml-72 2xl:ml-96 md:mt-5">
+          <p className="font-semibold text-white ">Message me here</p>
+          <div className="flex mt-4 text-gray">
+            <img src="/assets/images/Discord.svg" alt="" className="mr-3 " />
             <p className="">_rdg</p>
           </div>
 
-          <div className="flex text-gray mt-4">
-            <img src="/assets/images/Email.svg" alt="" className=" mr-3" />
+          <div className="flex mt-4 text-gray">
+            <img src="/assets/images/Email.svg" alt="" className="mr-3 " />
             <p className="">rodriigo.hora@outlook.com.br</p>
           </div>
         </div>
       </div>
-    </>
+    </article>
   );
 };

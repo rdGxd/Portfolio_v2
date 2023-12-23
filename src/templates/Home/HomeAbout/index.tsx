@@ -3,7 +3,7 @@ import { HomeH2 } from "../../../components/HomeH2";
 
 export const HomeAbout = () => {
   return (
-    <>
+    <article>
       <div className="flex 2xl:ml-52 mt-28 md:ml-10">
         <HomeH2 title="about-me" />
       </div>
@@ -31,7 +31,7 @@ export const HomeAbout = () => {
           <div className="mt-9">
             <NavLink
               to="/about"
-              className="border border-primary text-white py-2 px-4 "
+              className="px-4 py-2 text-white border border-primary "
             >
               Read more -&gt;
             </NavLink>
@@ -41,6 +41,6 @@ export const HomeAbout = () => {
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>
-    </>
+    </article>
   );
 };

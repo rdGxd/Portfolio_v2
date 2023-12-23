@@ -6,15 +6,15 @@ export const Header = () => {
 
   return (
     <>
-      <div className="flex items-center justify-around border-b border-gray py-8">
+      <div className="flex items-center justify-around py-8 border-b border-gray">
         <NavLink to="/" className="flex items-center">
           <img src="/assets/images/logo.svg" alt="logo" className="w-4 h-4" />
-          <p className="text-white ml-2">Rodrigo</p>
+          <p className="ml-2 text-white">Rodrigo</p>
         </NavLink>
         <nav>
-          <section className="MOBILE-MENU flex lg:hidden">
+          <article className="flex MOBILE-MENU lg:hidden">
             <div
-              className="HAMBURGER-ICON space-y-2"
+              className="space-y-2 HAMBURGER-ICON"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
               <img
@@ -35,7 +35,7 @@ export const Header = () => {
                     alt="logo"
                     className="w-4 h-4"
                   />
-                  <p className="text-white ml-2">Rodrigo</p>
+                  <p className="ml-2 text-white">Rodrigo</p>
                 </NavLink>
               </div>
 
@@ -68,9 +68,9 @@ export const Header = () => {
                 </li>
               </ul>
             </div>
-          </section>
+          </article>
 
-          <ul className="DESKTOP-MENU hidden lg:flex space-x-8">
+          <ul className="hidden space-x-8 DESKTOP-MENU lg:flex">
             <li className=" text-gray hover:text-white">
               <NavLink to="/">
                 <span className="text-primary">#</span>home
