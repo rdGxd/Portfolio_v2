@@ -11,7 +11,7 @@ export const HomeSkills = () => {
           <img src="/assets/images/SkillsDots.svg" alt="" />
         </div>
 
-        <div className="grid grid-cols-3 xl:ml-52 gap-3 w-[584px] xl:mt-11">
+        <div className="grid grid-cols-3 xl:ml-52 gap-3 w-[584px] xl:mt-11 md:grid-flow-row ">
           <div className="border border-gray">
             <h3 className="p-2 text-white">Languages</h3>
             <div className="p-2 border-t border-gray text-gray">

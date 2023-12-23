@@ -2,8 +2,8 @@ export const Footer = () => {
   return (
     <footer className="border-t border-gray lg:mt-10">
       <div className="w-full max-w-screen-xl p-4 py-6 mx-auto xl:py-8">
-        <div className="flex lg:justify-center 2xl:justify-around">
-          <div className="mb-6 md:mb-0">
+        <div className="flex lg:justify-center 2xl:justify-around md:ml-10">
+          <div className="mb-6 md:mb-0 ">
             <a href="#" className="flex items-center">
               <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1" />
               <span className="mr-6 text-base font-medium text-white md:mr-1">
@@ -18,7 +18,7 @@ export const Footer = () => {
             </span>
           </div>
 
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:flex md:flex-wrap md:ml-10">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 md:flex md:flex-wrap md:ml-28">
             <div>
               <h2 className="mb-2 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Media
