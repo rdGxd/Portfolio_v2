@@ -1,3 +1,4 @@
+import { GoTop } from "../../components/GoTop";
 import { H2Pages } from "../../components/H2Pages";
 import { TitlePage } from "../../components/TitlePage";
 
@@ -121,6 +122,7 @@ export const AboutMe = () => {
           className="2xl:ml-80 xl:ml-28 lg:ml-10 md:mt-10 md:mb-10 sm:my-5 "
         />
       </section>
+      <GoTop />
     </main>
   );
 };

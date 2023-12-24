@@ -1,3 +1,4 @@
+import { GoTop } from "../../components/GoTop";
 import { H2Pages } from "../../components/H2Pages";
 import { TitlePage } from "../../components/TitlePage";
 
@@ -240,6 +241,7 @@ export const Projects = () => {
           </div>
         </section>
       </article>
+      <GoTop />
     </main>
   );
 };
