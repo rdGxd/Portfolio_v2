@@ -47,22 +47,22 @@ export const Header = () => {
               </div>
               <ul className="flex flex-col items-center justify-between min-h-[250px]">
                 <li className=" text-gray hover:text-white">
-                  <NavLink to="/">
+                  <NavLink to="/" onClick={() => setIsNavOpen(false)}>
                     <span className="text-primary">#</span>home
                   </NavLink>
                 </li>
                 <li className=" text-gray hover:text-white">
-                  <NavLink to="/works">
+                  <NavLink to="/works" onClick={() => setIsNavOpen(false)}>
                     <span className="text-primary">#</span>works
                   </NavLink>
                 </li>
                 <li className=" text-gray hover:text-white">
-                  <NavLink to="/about-me">
+                  <NavLink to="/about-me" onClick={() => setIsNavOpen(false)}>
                     <span className="text-primary">#</span>about-me
                   </NavLink>
                 </li>
                 <li className=" text-gray hover:text-white">
-                  <NavLink to="/contacts">
+                  <NavLink to="/contacts" onClick={() => setIsNavOpen(false)}>
                     <span className="text-primary">#</span>contacts
                   </NavLink>
                 </li>
@@ -72,22 +72,26 @@ export const Header = () => {
 
           <ul className="hidden space-x-8 DESKTOP-MENU xl:flex">
             <li className=" text-gray hover:text-white">
-              <NavLink to="/">
+              <NavLink to="/" onClick={() => setIsNavOpen(false)}>
                 <span className="text-primary">#</span>home
               </NavLink>
             </li>
             <li className=" text-gray hover:text-white">
-              <NavLink to="/works" className="">
+              <NavLink
+                to="/works"
+                className=""
+                onClick={() => setIsNavOpen(false)}
+              >
                 <span className="text-primary">#</span>works
               </NavLink>
             </li>
             <li className=" text-gray hover:text-white">
-              <NavLink to="/about-me">
+              <NavLink to="/about-me" onClick={() => setIsNavOpen(false)}>
                 <span className="text-primary">#</span>about-me
               </NavLink>
             </li>
             <li className=" text-gray hover:text-white">
-              <NavLink to="/contacts">
+              <NavLink to="/contacts" onClick={() => setIsNavOpen(false)}>
                 <span className="text-primary">#</span>contacts
               </NavLink>
             </li>
