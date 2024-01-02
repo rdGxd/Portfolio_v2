@@ -8,7 +8,7 @@ export const Projects = () => {
       <TitlePage title="projects" />
 
       <article className="2xl:ml-24 2xl:mt-4 xl:ml-44 xl:mt-4 lg:ml-16 lg:mt-4 md:mt-5">
-        <p className="text-white md:ml-24 sm:ml-24 sm:mt-5 lg:ml-0 2xl:ml-24">
+        <p className="text-white md:ml-24 sm:ml-24 sm:mt-5 lg:ml-0 2xl:ml-24 mobile:my-4">
           List of my projects
         </p>
         <div className="mb-5 2xl:mt-10 xl:mt-5 lg:mt-4 md:mt-4 md:ml-24 sm:ml-24 sm:mt-4 lg:ml-0 2xl:ml-24">

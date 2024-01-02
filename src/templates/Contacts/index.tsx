@@ -7,17 +7,17 @@ export const Contacts = () => {
     <main>
       <TitlePage title="contacts" />
 
-      <article className="2xl:ml-44 xl:ml-44 lg:ml-36 md:ml-20 sm:ml-24">
+      <article className="2xl:ml-44 xl:ml-44 lg:ml-20 md:ml-20 sm:ml-24 ">
         <p className="mt-4 text-white">Quem sou eu? </p>
 
-        <section className="flex items-center md:mb-10 sm:ml-0 sm:flex-wrap sm:flex lg:flex-nowrap lg:mb-0">
-          <p className="text-gray">
+        <section className="flex items-center md:mb-10 sm:ml-0 sm:flex-wrap sm:flex lg:flex-nowrap lg:mb-0 mobile:block">
+          <p className="text-gray mobile:my-2">
             Estou interessado em oportunidades freelance. No entanto, <br /> se
             você tiver outra solicitação ou dúvida, não <br />
             hesite em entrar em contato comigo
           </p>
 
-          <div className="p-4 border border-gray 2xl:ml-96 xl:ml-20 lg:mr-5 md:mr-6 sm:my-5">
+          <div className="p-4 border border-gray 2xl:ml-96 xl:ml-20 lg:mr-5 md:mr-6 sm:my-5 mobile:my-5 lg:ml-5">
             <p className="font-semibold text-white ">Message me here</p>
             <div className="flex mt-4 text-gray">
               <img src="/assets/images/Discord.svg" alt="" className="mr-3 " />

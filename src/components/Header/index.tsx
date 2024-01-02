@@ -35,7 +35,7 @@ export const Header = () => {
                     alt="logo"
                     className="w-4 h-4"
                   />
-                  <p className="ml-2 text-white">Rodrigo</p>
+                  <p className="ml-2 text-white mobile:hidden">Rodrigo</p>
                 </NavLink>
               </div>
 

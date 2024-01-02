@@ -2,14 +2,15 @@ export const Footer = () => {
   return (
     <footer className="border-t border-gray lg:mt-10">
       <div className="w-full max-w-screen-xl p-4 py-6 mx-auto xl:py-8">
-        <div className="flex lg:justify-center 2xl:justify-around md:ml-10 sm:flex-wrap sm:justify-center">
-          <div className="mb-6 md:mb-0 ">
+        <div className="flex lg:justify-center 2xl:justify-around md:ml-10 sm:flex-wrap sm:justify-center mobile:w-full mobile:block lg:flex">
+          <div className="mb-6 md:mb-0 mobile:flex mobile:flex-wrap lg:block">
             <a href="#" className="flex items-center">
-              <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1" />
-              <span className="mr-6 text-base font-medium text-white md:mr-1">
+              <img src="/assets/images/logo.svg" className="w-4 h-4 mr-1 mobile:w-2 mobile:h-2 lg:w-4 lg:h-4" />
+              <span className="mr-6 text-base font-medium text-white md:mr-1 mobile:text-sm mobile:mr-0">
                 Rodrigo
               </span>
-              <span className="ml-3 md:ml-1 text-gray">
+
+              <span className="ml-3 md:ml-1 text-gray mobile:ml-0 mobile:text-sm lg:ml-3 lg:text-base">
                 rodriigo.hora@outlook.com.br
               </span>
             </a>
@@ -46,7 +47,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center mt-12 sm:mt-5">
+        <div className="flex justify-center mt-12 sm:mt-5 mobile:mt-5">
           <span className="text-sm text-gray sm:text-center">
             © Copyright 2022. Made by Rodrigo
           </span>

@@ -4,11 +4,11 @@ import { HomeH2 } from "../../../components/HomeH2";
 export const HomeAbout = () => {
   return (
     <article>
-      <div className="flex 2xl:ml-52 mt-28 md:ml-10">
+      <div className="flex 2xl:ml-24 mt-28 md:ml-10 items-center">
         <HomeH2 title="about-me" />
       </div>
-      <div className="flex 2xl:ml-62 md:flex-wrap sm:flex-wrap 2xl:flex-nowrap lg:ml-16 xl:flex-nowrap xl:ml-0">
-        <div className="w-[515px] mt-6 ml-60 md:ml-16 2xl:ml-64 sm:ml-10 2xl:w-full xl:w-full">
+      <div className="flex 2xl:ml-62 md:flex-wrap sm:flex-wrap 2xl:flex-nowrap lg:ml-16 xl:flex-nowrap xl:ml-0 mobile:w-full mobile:justify-normal mobile:block mobile:ml-0 lg:flex 2xl:flex ">
+        <div className="w-[515px] mt-6 ml-60 md:ml-16 2xl:ml-28 sm:ml-10 2xl:w-full xl:w-full mobile:w-full  mobile:ml-0 lg:w-[515px] lg:ml-0 ">
           <p className="text-gray">
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
             2022 venho buscando o conhecimento de mim para mim, seja atuando em
@@ -37,7 +37,7 @@ export const HomeAbout = () => {
             </NavLink>
           </div>
         </div>
-        <div className="xl:ml-62 2xl:ml-40 md:ml-32 md:w-full sm:ml-36">
+        <div className="xl:ml-62 md:ml-32 md:w-full sm:ml-36 lg:flex lg:w-1/3 2xl:w-full ">
           <img src="/assets/images/HomeAbout.svg" alt="" />
         </div>
       </div>

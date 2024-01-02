@@ -4,18 +4,18 @@ import { HomeH2 } from "../../../components/HomeH2";
 export const HomeProjects = () => {
   return (
     <article>
-      <div className="flex items-center 2xl:ml-52 mt-[74px] md:flex-wrap md:ml-10">
+      <div className="flex items-center 2xl:ml-24 mt-[74px] md:flex-wrap md:ml-10">
         <HomeH2 title="projects" />
         <NavLink
           to={"/projects"}
-          className="text-white text-base font-medium xl:ml-52 md:ml-4 2xl:ml-[650px] sm:ml-4"
+          className="text-white text-base font-medium xl:ml-52 md:ml-4  sm:ml-4 mobile:ml-5"
         >
           view all ~~&gt;{" "}
         </NavLink>
       </div>
 
-      <div className="grid mt-12 xl:grid-cols-3 2xl:grid-cols-4 2xl:ml-96 justify-items-center lg:flex md:flex md:flex-wrap sm:flex-wrap">
-        <div className="border w-80 h-52 border-gray lg:mr-4 lg:ml-16 md:ml-10 ">
+      <div className="grid mt-12 xl:grid-cols-3  2xl:ml-0 lg:flex md:flex md:flex-wrap sm:flex-wrap  mobile:flex mobile:flex-wrap mobile:w-full lg:w-full lg:flex-nowrap lg:justify-center lg:content-center ">
+        <div className="border w-80 h-52 border-gray lg:mr-4 lg:ml-5 md:ml-10 mobile:w-full mobile:h-full 2xl:w-80 2xl:h-52">
           <a href="https://front-end-strapi-auth-with-next-js-and-next-auth-js.vercel.app/">
             <img
               src="/assets/projectsPhotos/1.png"
@@ -26,7 +26,7 @@ export const HomeProjects = () => {
           <p className="p-2 border text-gray border-gray">
             NextJS, TypeScript, Styled-Components, GraphQL
           </p>
-          <div className="p-4 border text-gray border-gray">
+          <div className="p-4 border text-gray border-gray ">
             <h3 className="mb-4 font-medium text-white text-22xl">
               Página de login
             </h3>
@@ -50,7 +50,7 @@ export const HomeProjects = () => {
           </div>
         </div>
 
-        <div className="border w-80 h-52 border-gray lg:mr-4 md:ml-5 sm:mt-72 2xl:mt-0 lg:mt-0 md:mt-0 ">
+        <div className="border w-80 h-52 border-gray lg:mr-4 md:ml-5  sm:mt-72 2xl:mt-0  md:mt-0 mobile:w-full mobile:h-full  mobile:mt-5 lg:ml-0  2xl:w-80 2xl:h-52">
           <a href="https://blog-front-end-with-nextjs-and-react.vercel.app/">
             <img
               src="/assets/projectsPhotos/2.png"
@@ -85,7 +85,7 @@ export const HomeProjects = () => {
           </div>
         </div>
 
-        <div className="border w-80 h-52 border-gray md:mt-64 md:ml-10 sm:mt-72 2xl:mt-0 lg:ml-16 2xl:ml-5 xl:mt-0 xl:ml-5">
+        <div className="border w-80 h-52 border-gray md:mt-64 md:ml-10 sm:mt-72 2xl:mt-0 2xl:ml-5 xl:mt-0 xl:ml-5 mobile:w-full mobile:h-full  mobile:mt-5 lg:mt-0 lg:ml-0  2xl:w-80 2xl:h-52">
           <a href="https://landing-pages-front-end.vercel.app/">
             <img
               src="/assets/projectsPhotos/3.png"
