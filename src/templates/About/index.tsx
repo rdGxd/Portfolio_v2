@@ -77,7 +77,7 @@ export const AboutMe = () => {
           </div>
         </div>
         <div className="mr-4 border 2xl:w-64 border-gray xl:w-44 lg:w-40 md:w-28 sm:mt-10 md:mt-0 mobile:m-4">
-          <h3 className="p-2 text-white">FrameWorks</h3>
+          <h3 className="p-2 text-white">FrameWorks/Libs</h3>
           <div className="p-2 border-t border-gray text-gray">
             <p>React</p>
             <p>NextJS</p>

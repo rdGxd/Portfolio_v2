@@ -51,7 +51,7 @@ export const HomeSkills = () => {
             </div>
           </div>
           <div className="border border-gray lg:w-1/4">
-            <h3 className="p-2 text-white">FrameWorks</h3>
+            <h3 className="p-2 text-white">FrameWorks/Libs</h3>
             <div className="p-2 border-t border-gray text-gray">
               <p>React</p>
               <p>NextJS</p>
