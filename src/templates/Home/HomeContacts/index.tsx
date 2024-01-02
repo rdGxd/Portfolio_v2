@@ -1,4 +1,4 @@
-import { HomeH2 } from "../../../components/HomeH2";
+import { HomeH2 } from "../../../components";
 
 export const HomeContacts = () => {
   return (

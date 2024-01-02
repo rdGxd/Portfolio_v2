@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { HomeH2 } from "../../../components/HomeH2";
+import { HomeH2 } from "../../../components";
 
 export const HomeAbout = () => {
   return (

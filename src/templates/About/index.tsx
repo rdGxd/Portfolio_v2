@@ -1,6 +1,4 @@
-import { GoTop } from "../../components/GoTop";
-import { H2Pages } from "../../components/H2Pages";
-import { TitlePage } from "../../components/TitlePage";
+import { GoTop, H2Pages, TitlePage } from "../../components/index";
 
 export const AboutMe = () => {
   return (
