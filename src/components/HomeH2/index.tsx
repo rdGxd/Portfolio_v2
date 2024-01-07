@@ -9,9 +9,7 @@ export const HomeH2 = ({ title }: HomeH2Props) => {
         <span className="text-primary">#</span>
         {title}{" "}
       </h2>
-      <span className="ml-4 text-3xl text-primary md:text-base sm:text-sm mobile:hidden sm:block lg:w-1/2">
-        ----------------------------------
-      </span>
+      <span className="ml-4 border text-primary w-1/2 "></span>
     </>
   );
 };

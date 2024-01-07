@@ -3,7 +3,7 @@ import { HomeH2 } from "../../../components";
 export const HomeContacts = () => {
   return (
     <article>
-      <div className="flex 2xl:ml-32 xl:mt-28 md:ml-10 lg:mt-8 md:mt-4 sm:mt-10 2xl:mt-10 mobile:block lg:flex lg:items-center">
+      <div className="flex items-center 2xl:ml-24 mt-[74px] md:flex-wrap md:ml-10">
         <HomeH2 title="contacts" />
       </div>
       <div className="flex items-center xl:ml-14 xl:mt-5 md:flex-wrap md:ml-0 md:mt-5 md:justify-center 2xl:justify-normal lg:justify-normal mobile:flex-wrap 2xl:ml-0 2xl:my-0">
