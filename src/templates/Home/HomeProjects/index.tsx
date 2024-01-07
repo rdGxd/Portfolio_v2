@@ -119,6 +119,39 @@ export const HomeProjects = () => {
             </a>
           </div>
         </div>
+
+        <div className="border w-80 h-52 border-gray md:mt-64 md:ml-10 sm:mt-72 2xl:mt-0 2xl:ml-5 xl:mt-0 xl:ml-5 mobile:w-full mobile:h-full  mobile:mt-5 lg:mt-0 lg:ml-0  2xl:w-80 2xl:h-52">
+          <a href="https://landing-pages-front-end.vercel.app/">
+            <img
+              src="/assets/projectsPhotos/4.png"
+              alt=""
+              className="w-full h-full"
+            />
+          </a>
+          <p className="p-2 border text-gray border-gray">
+            NextJS, NextAuth, Typescript, PostgreSQL, Prisma, React, Tailwind
+          </p>
+          <div className="p-4 border text-gray border-gray">
+            <h3 className="mb-4 font-medium text-white text-22xl">
+              To do list
+            </h3>
+            <p className="mb-6">To do list com NextAuth</p>
+            <a
+              href="https://to-do-list-rdgxd.vercel.app/"
+              target="_blank"
+              className="px-4 py-2 mr-4 text-base font-medium text-white transition-all duration-500 border border-primary center hover:bg-primary hover:brightness-50"
+            >
+              Live &lt;~&gt;
+            </a>
+            <a
+              href="https://github.com/rdGxd/to_do_list"
+              target="_blank"
+              className="px-4 py-2 text-base font-medium text-white transition-all duration-500 border border-gray center hover:bg-gray hover:brightness-50"
+            >
+              GitHub &lt;~&gt;
+            </a>
+          </div>
+        </div>
       </div>
     </article>
   );

@@ -239,6 +239,39 @@ export const Projects = () => {
               </a>
             </div>
           </div>
+
+          <div className="border 2xl:w-80 2xl:h-52 border-gray mb-72 md:w-full md:ml-4 md:mr-4 2xl:mt-10 lg:mt-0">
+            <a href="https://to-do-list-rdgxd.vercel.app/" target="_blank">
+              <img
+                src="/assets/projectsPhotos/4.png"
+                alt=""
+                className="w-full h-full"
+              />
+            </a>
+            <p className="p-2 border text-gray border-gray">
+              NextJS, NextAuth, Typescript, PostgreSQL, Prisma, React, Tailwind
+            </p>
+            <div className="p-4 border text-gray border-gray">
+              <h3 className="mb-4 text-2xl font-medium text-white">
+                To do list
+              </h3>
+              <p className="mb-6"> To do list NextAuth</p>
+              <a
+                href="https://to-do-list-rdgxd.vercel.app/"
+                target="_blank"
+                className="px-4 py-2 mr-4 text-base font-medium text-white transition-all duration-500 border border-primary center hover:bg-primary hover:brightness-50"
+              >
+                Live &lt;~&gt;
+              </a>
+              <a
+                href="https://github.com/rdGxd/to_do_list"
+                target="_blank"
+                className="px-4 py-2 text-base font-medium text-white transition-all duration-500 border border-gray center hover:bg-gray hover:brightness-50"
+              >
+                GitHub &lt;~&gt;
+              </a>
+            </div>
+          </div>
         </section>
       </article>
       <GoTop />
