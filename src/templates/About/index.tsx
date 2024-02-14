@@ -10,7 +10,7 @@ export const AboutMe = () => {
             Graduando em Análise e Desenvolvimento de Sistemas. Desde o fim de
             2022 venho buscando o conhecimento de mim para mim, seja atuando em
             projetos próprios para aprimorar o aprendizado ou acompanhando
-            axluns projetos terceiros <br />
+            alguns projetos de terceiros <br />
             <br />e boas práticas e princípios de programação. . Também tenho
             experiência em Montagem e manutenção de computadores
             <br />
