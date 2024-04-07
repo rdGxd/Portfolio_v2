@@ -17,7 +17,7 @@ export const HomeSkills = () => {
             <div className="p-2 border-t border-gray text-gray">
               <p>JavaScript</p>
               <p>TypeScript</p>
-              <p>Python</p>
+              <p>Java</p>
             </div>
           </div>
 

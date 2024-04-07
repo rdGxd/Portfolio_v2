@@ -15,7 +15,7 @@ export const Footer = () => {
               </span>
             </a>
             <span className="ml-3 text-white">
-              Web designer and front-end developer
+              Web designer and fullstack developer
             </span>
           </div>
 

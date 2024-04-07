@@ -5,7 +5,7 @@ export const First = () => {
         <div className="mt-16 w-[537px] mobile:w-full mobile:flex mobile:flex-wrap mobile:justify-center mobile:items-center lg:w-[537px] lg:justify-normal lg:items-start lg:block">
           <h1 className="text-white font-semibold text-[32px]">
             Rodrigo is a <span className="text-primary">web designer</span> and{" "}
-            <span className="text-primary ">front-end developer</span>
+            <span className="text-primary ">fullstack developer</span>
           </h1>
           <p className="mt-8 text-base text-gray mobile:w-1/2 mobile:flex">
             He crafts responsive websites where technologies meet creativity
