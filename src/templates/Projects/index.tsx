@@ -1,6 +1,4 @@
-import { GoTop } from "../../components/GoTop";
-import { H2Pages } from "../../components/H2Pages";
-import { TitlePage } from "../../components/TitlePage";
+import { TitlePage, H2Pages, GoTop } from "../../components";
 
 export const Projects = () => {
   return (

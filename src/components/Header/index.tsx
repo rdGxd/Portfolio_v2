@@ -52,8 +52,8 @@ export const Header = () => {
                   </NavLink>
                 </li>
                 <li className=" text-gray hover:text-white">
-                  <NavLink to="/works" onClick={() => setIsNavOpen(false)}>
-                    <span className="text-primary">#</span>works
+                  <NavLink to="/projects" onClick={() => setIsNavOpen(false)}>
+                    <span className="text-primary">#</span>projects
                   </NavLink>
                 </li>
                 <li className=" text-gray hover:text-white">
@@ -78,11 +78,11 @@ export const Header = () => {
             </li>
             <li className=" text-gray hover:text-white">
               <NavLink
-                to="/works"
+                to="/projects"
                 className=""
                 onClick={() => setIsNavOpen(false)}
               >
-                <span className="text-primary">#</span>works
+                <span className="text-primary">#</span>projects
               </NavLink>
             </li>
             <li className=" text-gray hover:text-white">

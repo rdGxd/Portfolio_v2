@@ -25,7 +25,7 @@ export const HomeSkills = () => {
             <h3 className="p-2 text-white">Databases</h3>
             <div className="p-2 border-t border-gray text-gray">
               <p>MongoDB</p>
-              <p>PostgreSQL</p>
+              <p>PostgresSQL</p>
               <p>MySQL</p>
             </div>
           </div>
@@ -57,6 +57,7 @@ export const HomeSkills = () => {
               <p>NextJS</p>
               <p>ExpressJS</p>
               <p>Tailwind</p>
+              <p>Spring</p>
               <p>And others...</p>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import { GoTop, H2Pages, TitlePage } from "../../components/index";
+import { GoTop, H2Pages, TitlePage } from "../../components";
 
 export const AboutMe = () => {
   return (
@@ -49,7 +49,7 @@ export const AboutMe = () => {
           <h3 className="p-2 text-white">Databases</h3>
           <div className="p-2 border-t border-gray text-gray">
             <p>MongoDB</p>
-            <p>PostgreSQL</p>
+            <p>PostgresSQL</p>
             <p>MySQL</p>
           </div>
         </div>
@@ -81,6 +81,7 @@ export const AboutMe = () => {
             <p>NextJS</p>
             <p>ExpressJS</p>
             <p>Tailwind</p>
+            <p>Spring</p>
             <p>And others...</p>
           </div>
         </div>
